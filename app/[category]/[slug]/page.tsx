@@ -6,19 +6,31 @@ import { registry } from "@/lib/registry";
 import CodeBlock from "@/components/ui/CodeBlock";
 import ParallaxCard from "@/components/card/PallalaxCard";
 import FlipCard from "@/components/card/FlipCard";
+import SpotlightCard from "@/components/card/SpotlightCard";
 import GlowButton from "@/components/button/GlowButton";
 import RippleButton from "@/components/button/RippleButton";
+import MagneticButton from "@/components/button/MagneticButton";
 import TextShimmer from "@/components/animation/TextShimmer";
 import CountUp from "@/components/animation/CountUp";
+import Typewriter from "@/components/animation/Typewriter";
+import Aurora from "@/components/animation/Aurora";
+import DotsLoader from "@/components/loader/DotsLoader";
+import RingLoader from "@/components/loader/RingLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
   "card/parallax-card": ParallaxCard,
   "card/flip-card": FlipCard,
+  "card/spotlight-card": SpotlightCard,
   "button/glow-button": GlowButton,
   "button/ripple-button": RippleButton,
+  "button/magnetic-button": MagneticButton,
   "animation/text-shimmer": TextShimmer,
   "animation/count-up": CountUp,
+  "animation/typewriter": Typewriter,
+  "animation/aurora": Aurora,
+  "loader/dots-loader": DotsLoader,
+  "loader/ring-loader": RingLoader,
 };
 
 export default async function ComponentPage({

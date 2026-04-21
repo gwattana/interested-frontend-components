@@ -47,3 +47,18 @@ body {
   0% { transform: scale(1); opacity: 0.6; }
   100% { transform: scale(20); opacity: 0; }
 }
+
+@keyframes aurora-blob1 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50%       { transform: translate(50px, 25px) scale(1.15); }
+}
+
+@keyframes aurora-blob2 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50%       { transform: translate(-40px, -30px) scale(1.1); }
+}
+
+@keyframes aurora-blob3 {
+  0%, 100% { transform: translate(0px, 0px) scale(1); }
+  50%       { transform: translate(30px, -35px) scale(1.12); }
+}

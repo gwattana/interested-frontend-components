@@ -25,6 +25,14 @@ export const registry: ComponentMeta[] = [
     file: "components/card/FlipCard.tsx",
     tags: ["3d", "hover", "css"],
   },
+  {
+    name: "Spotlight Card",
+    slug: "spotlight-card",
+    category: "card",
+    description: "A card with a radial spotlight that follows the mouse cursor.",
+    file: "components/card/SpotlightCard.tsx",
+    tags: ["mouse", "spotlight", "hover"],
+  },
 
   // button
   {
@@ -43,6 +51,14 @@ export const registry: ComponentMeta[] = [
     file: "components/button/RippleButton.tsx",
     tags: ["click", "ripple", "interaction"],
   },
+  {
+    name: "Magnetic Button",
+    slug: "magnetic-button",
+    category: "button",
+    description: "A button that elastically moves toward the cursor on hover.",
+    file: "components/button/MagneticButton.tsx",
+    tags: ["mouse", "magnetic", "physics"],
+  },
 
   // animation
   {
@@ -60,5 +76,39 @@ export const registry: ComponentMeta[] = [
     description: "Numbers that animate upward from zero with an ease-out curve.",
     file: "components/animation/CountUp.tsx",
     tags: ["number", "counter", "easing"],
+  },
+  {
+    name: "Typewriter",
+    slug: "typewriter",
+    category: "animation",
+    description: "Text that types and erases itself through a list of phrases.",
+    file: "components/animation/Typewriter.tsx",
+    tags: ["text", "typing", "loop"],
+  },
+  {
+    name: "Aurora",
+    slug: "aurora",
+    category: "animation",
+    description: "Soft animated gradient blobs that drift like an aurora borealis.",
+    file: "components/animation/Aurora.tsx",
+    tags: ["gradient", "blur", "ambient"],
+  },
+
+  // loader
+  {
+    name: "Dots Loader",
+    slug: "dots-loader",
+    category: "loader",
+    description: "Bouncing dot loaders in multiple sizes and colors.",
+    file: "components/loader/DotsLoader.tsx",
+    tags: ["loading", "bounce", "dots"],
+  },
+  {
+    name: "Ring Loader",
+    slug: "ring-loader",
+    category: "loader",
+    description: "Spinning gradient rings in three sizes.",
+    file: "components/loader/RingLoader.tsx",
+    tags: ["loading", "spinner", "gradient"],
   },
 ];
