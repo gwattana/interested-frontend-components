@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 :root {
+  --font-geist-sans: sans-serif;
+  --font-geist-mono: monospace;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +25,25 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* sugar-high token colors */
+.sh__class, .sh__function { color: #93c5fd; }
+.sh__keyword, .sh__module { color: #c084fc; }
+.sh__string { color: #86efac; }
+.sh__comment { color: #52525b; }
+.sh__jsxliterals { color: #f9a8d4; }
+.sh__property { color: #fdba74; }
+.sh__entity { color: #fde68a; }
+.sh__sign, .sh__punctuation { color: #71717a; }
+.sh__identifier { color: #e4e4e7; }
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(20); opacity: 0; }
 }
