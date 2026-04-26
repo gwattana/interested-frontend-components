@@ -7,30 +7,42 @@ import CodeBlock from "@/components/ui/CodeBlock";
 import ParallaxCard from "@/components/card/PallalaxCard";
 import FlipCard from "@/components/card/FlipCard";
 import SpotlightCard from "@/components/card/SpotlightCard";
+import NeonCard from "@/components/card/NeonCard";
+import GlassCard from "@/components/card/GlassCard";
 import GlowButton from "@/components/button/GlowButton";
 import RippleButton from "@/components/button/RippleButton";
 import MagneticButton from "@/components/button/MagneticButton";
+import ConfettiButton from "@/components/button/ConfettiButton";
 import TextShimmer from "@/components/animation/TextShimmer";
 import CountUp from "@/components/animation/CountUp";
 import Typewriter from "@/components/animation/Typewriter";
 import Aurora from "@/components/animation/Aurora";
+import ScrambleText from "@/components/animation/ScrambleText";
+import MorphingText from "@/components/animation/MorphingText";
 import DotsLoader from "@/components/loader/DotsLoader";
 import RingLoader from "@/components/loader/RingLoader";
+import WaveLoader from "@/components/loader/WaveLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
   "card/parallax-card": ParallaxCard,
   "card/flip-card": FlipCard,
   "card/spotlight-card": SpotlightCard,
+  "card/neon-card": NeonCard,
+  "card/glass-card": GlassCard,
   "button/glow-button": GlowButton,
   "button/ripple-button": RippleButton,
   "button/magnetic-button": MagneticButton,
+  "button/confetti-button": ConfettiButton,
   "animation/text-shimmer": TextShimmer,
   "animation/count-up": CountUp,
   "animation/typewriter": Typewriter,
   "animation/aurora": Aurora,
+  "animation/scramble-text": ScrambleText,
+  "animation/morphing-text": MorphingText,
   "loader/dots-loader": DotsLoader,
   "loader/ring-loader": RingLoader,
+  "loader/wave-loader": WaveLoader,
 };
 
 export async function generateStaticParams() {

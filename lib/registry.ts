@@ -33,6 +33,22 @@ export const registry: ComponentMeta[] = [
     file: "components/card/SpotlightCard.tsx",
     tags: ["mouse", "spotlight", "hover"],
   },
+  {
+    name: "Neon Card",
+    slug: "neon-card",
+    category: "card",
+    description: "A card with an animated RGB border made from a rotating conic gradient.",
+    file: "components/card/NeonCard.tsx",
+    tags: ["neon", "border", "gradient", "animation"],
+  },
+  {
+    name: "Glass Card",
+    slug: "glass-card",
+    category: "card",
+    description: "A glassmorphism card with backdrop blur, color orbs, and a cursor shimmer.",
+    file: "components/card/GlassCard.tsx",
+    tags: ["glass", "blur", "mouse", "gradient"],
+  },
 
   // button
   {
@@ -58,6 +74,14 @@ export const registry: ComponentMeta[] = [
     description: "A button that elastically moves toward the cursor on hover.",
     file: "components/button/MagneticButton.tsx",
     tags: ["mouse", "magnetic", "physics"],
+  },
+  {
+    name: "Confetti Button",
+    slug: "confetti-button",
+    category: "button",
+    description: "A button that launches a burst of colorful confetti particles on click.",
+    file: "components/button/ConfettiButton.tsx",
+    tags: ["click", "confetti", "particles", "fun"],
   },
 
   // animation
@@ -93,6 +117,22 @@ export const registry: ComponentMeta[] = [
     file: "components/animation/Aurora.tsx",
     tags: ["gradient", "blur", "ambient"],
   },
+  {
+    name: "Scramble Text",
+    slug: "scramble-text",
+    category: "animation",
+    description: "Characters randomly cycle through glyphs before resolving back to the original text on hover.",
+    file: "components/animation/ScrambleText.tsx",
+    tags: ["text", "hover", "glitch", "mono"],
+  },
+  {
+    name: "Morphing Text",
+    slug: "morphing-text",
+    category: "animation",
+    description: "Words blur and cross-fade into one another in a looping sequence.",
+    file: "components/animation/MorphingText.tsx",
+    tags: ["text", "blur", "loop", "gradient"],
+  },
 
   // loader
   {
@@ -110,5 +150,13 @@ export const registry: ComponentMeta[] = [
     description: "Spinning gradient rings in three sizes.",
     file: "components/loader/RingLoader.tsx",
     tags: ["loading", "spinner", "gradient"],
+  },
+  {
+    name: "Wave Loader",
+    slug: "wave-loader",
+    category: "loader",
+    description: "Five bars animate in a flowing wave pattern, shown in three color variants.",
+    file: "components/loader/WaveLoader.tsx",
+    tags: ["loading", "wave", "bars", "animation"],
   },
 ];

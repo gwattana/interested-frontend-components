@@ -62,3 +62,13 @@ body {
   0%, 100% { transform: translate(0px, 0px) scale(1); }
   50%       { transform: translate(30px, -35px) scale(1.12); }
 }
+
+@keyframes neon-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes wave-bar {
+  0%, 40%, 100% { transform: scaleY(0.4); }
+  20%           { transform: scaleY(1); }
+}
