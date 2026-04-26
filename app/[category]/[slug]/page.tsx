@@ -33,6 +33,13 @@ const componentMap: Record<string, ComponentType> = {
   "loader/ring-loader": RingLoader,
 };
 
+export async function generateStaticParams() {
+  return registry.map((entry) => ({
+    category: entry.category,
+    slug: entry.slug,
+  }));
+}
+
 export default async function ComponentPage({
   params,
 }: {
