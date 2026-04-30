@@ -22,6 +22,15 @@ import MorphingText from "@/components/animation/MorphingText";
 import DotsLoader from "@/components/loader/DotsLoader";
 import RingLoader from "@/components/loader/RingLoader";
 import WaveLoader from "@/components/loader/WaveLoader";
+import TiltCard from "@/components/card/TiltCard";
+import HolographicCard from "@/components/card/HolographicCard";
+import LiquidButton from "@/components/button/LiquidButton";
+import GlitchButton from "@/components/button/GlitchButton";
+import BlurFade from "@/components/animation/BlurFade";
+import GradientText from "@/components/animation/GradientText";
+import SplitText from "@/components/animation/SplitText";
+import PulseLoader from "@/components/loader/PulseLoader";
+import OrbitLoader from "@/components/loader/OrbitLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
@@ -43,6 +52,15 @@ const componentMap: Record<string, ComponentType> = {
   "loader/dots-loader": DotsLoader,
   "loader/ring-loader": RingLoader,
   "loader/wave-loader": WaveLoader,
+  "card/tilt-card": TiltCard,
+  "card/holographic-card": HolographicCard,
+  "button/liquid-button": LiquidButton,
+  "button/glitch-button": GlitchButton,
+  "animation/blur-fade": BlurFade,
+  "animation/gradient-text": GradientText,
+  "animation/split-text": SplitText,
+  "loader/pulse-loader": PulseLoader,
+  "loader/orbit-loader": OrbitLoader,
 };
 
 export async function generateStaticParams() {
