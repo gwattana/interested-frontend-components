@@ -134,6 +134,86 @@ export const registry: ComponentMeta[] = [
     tags: ["text", "blur", "loop", "gradient"],
   },
 
+  // card (new)
+  {
+    name: "Tilt Card",
+    slug: "tilt-card",
+    category: "card",
+    description: "A card that tilts in 3D perspective to follow the mouse cursor.",
+    file: "components/card/TiltCard.tsx",
+    tags: ["3d", "mouse", "tilt", "hover"],
+  },
+  {
+    name: "Holographic Card",
+    slug: "holographic-card",
+    category: "card",
+    description: "A card with a rainbow holographic shimmer that tracks the cursor.",
+    file: "components/card/HolographicCard.tsx",
+    tags: ["holographic", "rainbow", "mouse", "3d"],
+  },
+
+  // button (new)
+  {
+    name: "Liquid Button",
+    slug: "liquid-button",
+    category: "button",
+    description: "A button where liquid rises from the bottom on hover.",
+    file: "components/button/LiquidButton.tsx",
+    tags: ["hover", "fill", "liquid", "animation"],
+  },
+  {
+    name: "Glitch Button",
+    slug: "glitch-button",
+    category: "button",
+    description: "A cyberpunk-style button with a color-split glitch effect on hover.",
+    file: "components/button/GlitchButton.tsx",
+    tags: ["glitch", "hover", "cyberpunk", "mono"],
+  },
+
+  // animation (new)
+  {
+    name: "Blur Fade",
+    slug: "blur-fade",
+    category: "animation",
+    description: "Content blurs and fades in from below when it enters the viewport.",
+    file: "components/animation/BlurFade.tsx",
+    tags: ["text", "blur", "fade", "scroll"],
+  },
+  {
+    name: "Gradient Text",
+    slug: "gradient-text",
+    category: "animation",
+    description: "Text with a continuously flowing rainbow gradient sweep.",
+    file: "components/animation/GradientText.tsx",
+    tags: ["text", "gradient", "rainbow", "loop"],
+  },
+  {
+    name: "Split Text",
+    slug: "split-text",
+    category: "animation",
+    description: "Characters slide up staggered one by one to reveal text.",
+    file: "components/animation/SplitText.tsx",
+    tags: ["text", "stagger", "reveal", "animation"],
+  },
+
+  // loader (new)
+  {
+    name: "Pulse Loader",
+    slug: "pulse-loader",
+    category: "loader",
+    description: "Concentric rings pulse outward from a center dot like a sonar ping.",
+    file: "components/loader/PulseLoader.tsx",
+    tags: ["loading", "pulse", "rings"],
+  },
+  {
+    name: "Orbit Loader",
+    slug: "orbit-loader",
+    category: "loader",
+    description: "Dots orbit a center point at different radii and speeds.",
+    file: "components/loader/OrbitLoader.tsx",
+    tags: ["loading", "orbit", "dots", "animation"],
+  },
+
   // loader
   {
     name: "Dots Loader",
