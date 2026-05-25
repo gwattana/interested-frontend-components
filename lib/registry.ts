@@ -239,4 +239,60 @@ export const registry: ComponentMeta[] = [
     file: "components/loader/WaveLoader.tsx",
     tags: ["loading", "wave", "bars", "animation"],
   },
+
+  // card
+  {
+    name: "Stacked Cards",
+    slug: "stacked-cards",
+    category: "card",
+    description: "A deck of gradient cards that fans out like playing cards on hover.",
+    file: "components/card/StackedCards.tsx",
+    tags: ["hover", "3d", "stacked", "animation"],
+  },
+
+  // button
+  {
+    name: "Shiny Button",
+    slug: "shiny-button",
+    category: "button",
+    description: "Gradient buttons with a light-sweep shine that streaks across on hover.",
+    file: "components/button/ShinyButton.tsx",
+    tags: ["hover", "shine", "gradient", "animation"],
+  },
+
+  // animation
+  {
+    name: "Word Rotate",
+    slug: "word-rotate",
+    category: "animation",
+    description: "Words exit upward and new words enter from below in a looping vertical rotation.",
+    file: "components/animation/WordRotate.tsx",
+    tags: ["text", "loop", "vertical", "gradient"],
+  },
+  {
+    name: "Marquee",
+    slug: "marquee",
+    category: "animation",
+    description: "Two rows of badges scroll horizontally in opposite directions, looping seamlessly.",
+    file: "components/animation/Marquee.tsx",
+    tags: ["scroll", "loop", "ticker", "horizontal"],
+  },
+
+  // loader
+  {
+    name: "Skeleton Loader",
+    slug: "skeleton-loader",
+    category: "loader",
+    description: "Pulsing content-placeholder skeleton that mimics a social card layout.",
+    file: "components/loader/SkeletonLoader.tsx",
+    tags: ["loading", "skeleton", "placeholder", "pulse"],
+  },
+  {
+    name: "Progress Bar",
+    slug: "progress-bar",
+    category: "loader",
+    description: "Animated gradient progress bars that fill from zero on mount.",
+    file: "components/loader/ProgressBar.tsx",
+    tags: ["loading", "progress", "gradient", "animation"],
+  },
 ];

@@ -31,6 +31,12 @@ import GradientText from "@/components/animation/GradientText";
 import SplitText from "@/components/animation/SplitText";
 import PulseLoader from "@/components/loader/PulseLoader";
 import OrbitLoader from "@/components/loader/OrbitLoader";
+import StackedCards from "@/components/card/StackedCards";
+import ShinyButton from "@/components/button/ShinyButton";
+import WordRotate from "@/components/animation/WordRotate";
+import Marquee from "@/components/animation/Marquee";
+import SkeletonLoader from "@/components/loader/SkeletonLoader";
+import ProgressBar from "@/components/loader/ProgressBar";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
@@ -61,6 +67,12 @@ const componentMap: Record<string, ComponentType> = {
   "animation/split-text": SplitText,
   "loader/pulse-loader": PulseLoader,
   "loader/orbit-loader": OrbitLoader,
+  "card/stacked-cards": StackedCards,
+  "button/shiny-button": ShinyButton,
+  "animation/word-rotate": WordRotate,
+  "animation/marquee": Marquee,
+  "loader/skeleton-loader": SkeletonLoader,
+  "loader/progress-bar": ProgressBar,
 };
 
 export async function generateStaticParams() {
