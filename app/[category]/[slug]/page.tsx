@@ -37,6 +37,12 @@ import WordRotate from "@/components/animation/WordRotate";
 import Marquee from "@/components/animation/Marquee";
 import SkeletonLoader from "@/components/loader/SkeletonLoader";
 import ProgressBar from "@/components/loader/ProgressBar";
+import MagicCard from "@/components/card/MagicCard";
+import StarBorder from "@/components/card/StarBorder";
+import NeonButton from "@/components/button/NeonButton";
+import FloatingParticles from "@/components/animation/FloatingParticles";
+import NumberTicker from "@/components/animation/NumberTicker";
+import BounceLoader from "@/components/loader/BounceLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
@@ -73,6 +79,12 @@ const componentMap: Record<string, ComponentType> = {
   "animation/marquee": Marquee,
   "loader/skeleton-loader": SkeletonLoader,
   "loader/progress-bar": ProgressBar,
+  "card/magic-card": MagicCard,
+  "card/star-border": StarBorder,
+  "button/neon-button": NeonButton,
+  "animation/floating-particles": FloatingParticles,
+  "animation/number-ticker": NumberTicker,
+  "loader/bounce-loader": BounceLoader,
 };
 
 export async function generateStaticParams() {

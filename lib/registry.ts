@@ -295,4 +295,60 @@ export const registry: ComponentMeta[] = [
     file: "components/loader/ProgressBar.tsx",
     tags: ["loading", "progress", "gradient", "animation"],
   },
+
+  // card
+  {
+    name: "Magic Card",
+    slug: "magic-card",
+    category: "card",
+    description: "A dark card with a radial gradient border spotlight that chases the mouse cursor.",
+    file: "components/card/MagicCard.tsx",
+    tags: ["mouse", "border", "spotlight", "hover"],
+  },
+  {
+    name: "Star Border",
+    slug: "star-border",
+    category: "card",
+    description: "Cards with an animated comet of light tracing along the border in a continuous loop.",
+    file: "components/card/StarBorder.tsx",
+    tags: ["border", "loop", "comet", "animation"],
+  },
+
+  // button
+  {
+    name: "Neon Button",
+    slug: "neon-button",
+    category: "button",
+    description: "Cyberpunk-style buttons with neon glow and a scan-line sweep effect on hover.",
+    file: "components/button/NeonButton.tsx",
+    tags: ["neon", "hover", "glow", "cyberpunk", "mono"],
+  },
+
+  // animation
+  {
+    name: "Floating Particles",
+    slug: "floating-particles",
+    category: "animation",
+    description: "Glowing ember-like particles drift upward on a canvas in a seamless loop.",
+    file: "components/animation/FloatingParticles.tsx",
+    tags: ["canvas", "particles", "glow", "loop", "ambient"],
+  },
+  {
+    name: "Number Ticker",
+    slug: "number-ticker",
+    category: "animation",
+    description: "Digits cycle through random characters before landing on the target number, like a slot machine.",
+    file: "components/animation/NumberTicker.tsx",
+    tags: ["number", "counter", "slot", "animation", "mono"],
+  },
+
+  // loader
+  {
+    name: "Bounce Loader",
+    slug: "bounce-loader",
+    category: "loader",
+    description: "Three glowing dots bounce with elastic, wave, and pulse timing variants.",
+    file: "components/loader/BounceLoader.tsx",
+    tags: ["loading", "bounce", "elastic", "dots"],
+  },
 ];
