@@ -351,4 +351,60 @@ export const registry: ComponentMeta[] = [
     file: "components/loader/BounceLoader.tsx",
     tags: ["loading", "bounce", "elastic", "dots"],
   },
+
+  // card (new)
+  {
+    name: "Prism Card",
+    slug: "prism-card",
+    category: "card",
+    description: "A card that refracts a rainbow conic gradient glow tracking the cursor.",
+    file: "components/card/PrismCard.tsx",
+    tags: ["mouse", "gradient", "rainbow", "hover"],
+  },
+  {
+    name: "Fold Card",
+    slug: "fold-card",
+    category: "card",
+    description: "A card whose top and bottom panels fold open in 3D to reveal content underneath.",
+    file: "components/card/FoldCard.tsx",
+    tags: ["3d", "hover", "fold", "reveal"],
+  },
+
+  // button (new)
+  {
+    name: "Press Button",
+    slug: "press-button",
+    category: "button",
+    description: "A skeuomorphic button that physically depresses with its shadow on click.",
+    file: "components/button/PressButton.tsx",
+    tags: ["click", "press", "3d", "interaction"],
+  },
+  {
+    name: "Outline Button",
+    slug: "outline-button",
+    category: "button",
+    description: "A button whose SVG border draws itself in on hover using a stroke animation.",
+    file: "components/button/OutlineButton.tsx",
+    tags: ["svg", "hover", "outline", "draw"],
+  },
+
+  // animation (new)
+  {
+    name: "Wave Text",
+    slug: "wave-text",
+    category: "animation",
+    description: "Letters continuously bob up and down in a staggered wave loop.",
+    file: "components/animation/WaveText.tsx",
+    tags: ["text", "wave", "loop", "stagger"],
+  },
+
+  // loader (new)
+  {
+    name: "Grid Loader",
+    slug: "grid-loader",
+    category: "loader",
+    description: "A grid of squares that pulse in a diagonal sequence like a scanning matrix.",
+    file: "components/loader/GridLoader.tsx",
+    tags: ["loading", "grid", "pulse", "matrix"],
+  },
 ];
