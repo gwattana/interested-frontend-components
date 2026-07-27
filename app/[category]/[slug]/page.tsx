@@ -43,6 +43,12 @@ import NeonButton from "@/components/button/NeonButton";
 import FloatingParticles from "@/components/animation/FloatingParticles";
 import NumberTicker from "@/components/animation/NumberTicker";
 import BounceLoader from "@/components/loader/BounceLoader";
+import PrismCard from "@/components/card/PrismCard";
+import FoldCard from "@/components/card/FoldCard";
+import PressButton from "@/components/button/PressButton";
+import OutlineButton from "@/components/button/OutlineButton";
+import WaveText from "@/components/animation/WaveText";
+import GridLoader from "@/components/loader/GridLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
@@ -85,6 +91,12 @@ const componentMap: Record<string, ComponentType> = {
   "animation/floating-particles": FloatingParticles,
   "animation/number-ticker": NumberTicker,
   "loader/bounce-loader": BounceLoader,
+  "card/prism-card": PrismCard,
+  "card/fold-card": FoldCard,
+  "button/press-button": PressButton,
+  "button/outline-button": OutlineButton,
+  "animation/wave-text": WaveText,
+  "loader/grid-loader": GridLoader,
 };
 
 export async function generateStaticParams() {
