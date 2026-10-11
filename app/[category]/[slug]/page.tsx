@@ -49,6 +49,12 @@ import PressButton from "@/components/button/PressButton";
 import OutlineButton from "@/components/button/OutlineButton";
 import WaveText from "@/components/animation/WaveText";
 import GridLoader from "@/components/loader/GridLoader";
+import ExpandCards from "@/components/card/ExpandCards";
+import ScratchCard from "@/components/card/ScratchCard";
+import HoldButton from "@/components/button/HoldButton";
+import SlideButton from "@/components/button/SlideButton";
+import HighlightText from "@/components/animation/HighlightText";
+import InfinityLoader from "@/components/loader/InfinityLoader";
 import type { ComponentType } from "react";
 
 const componentMap: Record<string, ComponentType> = {
@@ -97,6 +103,12 @@ const componentMap: Record<string, ComponentType> = {
   "button/outline-button": OutlineButton,
   "animation/wave-text": WaveText,
   "loader/grid-loader": GridLoader,
+  "card/expand-cards": ExpandCards,
+  "card/scratch-card": ScratchCard,
+  "button/hold-button": HoldButton,
+  "button/slide-button": SlideButton,
+  "animation/highlight-text": HighlightText,
+  "loader/infinity-loader": InfinityLoader,
 };
 
 export async function generateStaticParams() {
