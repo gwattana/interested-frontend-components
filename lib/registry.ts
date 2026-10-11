@@ -407,4 +407,60 @@ export const registry: ComponentMeta[] = [
     file: "components/loader/GridLoader.tsx",
     tags: ["loading", "grid", "pulse", "matrix"],
   },
+
+  // card (new)
+  {
+    name: "Expand Cards",
+    slug: "expand-cards",
+    category: "card",
+    description: "A row of gradient panels where the hovered panel expands accordion-style to reveal its title.",
+    file: "components/card/ExpandCards.tsx",
+    tags: ["hover", "accordion", "expand", "gallery"],
+  },
+  {
+    name: "Scratch Card",
+    slug: "scratch-card",
+    category: "card",
+    description: "A lottery-style card whose foil layer can be scratched away with the pointer to reveal a prize.",
+    file: "components/card/ScratchCard.tsx",
+    tags: ["canvas", "pointer", "reveal", "interaction"],
+  },
+
+  // button (new)
+  {
+    name: "Hold Button",
+    slug: "hold-button",
+    category: "button",
+    description: "A press-and-hold button that fills with progress and only confirms after being held.",
+    file: "components/button/HoldButton.tsx",
+    tags: ["press", "hold", "progress", "confirm"],
+  },
+  {
+    name: "Slide Button",
+    slug: "slide-button",
+    category: "button",
+    description: "A pill button whose background fill slides in from the left while the arrow nudges forward.",
+    file: "components/button/SlideButton.tsx",
+    tags: ["hover", "fill", "arrow", "slide"],
+  },
+
+  // animation (new)
+  {
+    name: "Highlight Text",
+    slug: "highlight-text",
+    category: "animation",
+    description: "A marker-style highlight sweeps behind key words, then retracts in a staggered loop.",
+    file: "components/animation/HighlightText.tsx",
+    tags: ["text", "highlight", "marker", "loop"],
+  },
+
+  // loader (new)
+  {
+    name: "Infinity Loader",
+    slug: "infinity-loader",
+    category: "loader",
+    description: "A glowing segment endlessly traces an SVG infinity path.",
+    file: "components/loader/InfinityLoader.tsx",
+    tags: ["loading", "svg", "infinity", "path"],
+  },
 ];
